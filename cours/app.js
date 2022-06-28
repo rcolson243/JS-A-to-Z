@@ -10,6 +10,11 @@ function hello_word () {
 
 question_container.addEventListener('click', () => {
     console.log("click");
+    question_container.classList.toggle('question-clicked')
+})
+
+document.querySelector(".cache").addEventListener('click', () => {
+    question_container.classList.remove('question-clicked')
 })
 
 

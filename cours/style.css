@@ -15,6 +15,10 @@ body {
   background: black;
   padding: 10px;
 }
+
+.cache {
+  color: rgb(31, 6, 6);
+}
 p {
   visibility: hidden;
   opacity: 0;
