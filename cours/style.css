@@ -15,7 +15,7 @@ body {
   background: black;
   padding: 10px;
 }
-p {
+.reponse {
   visibility: hidden;
   opacity: 0;
   width: 240px;
@@ -44,7 +44,7 @@ button {
   border-radius: 50px;
   position: absolute;
   transform: translate(-50%, -50%);
-  transition: 0.2s ease-out;
+  transition: 0.1s ease-out;
   z-index: -1;
 }
 nav {
@@ -54,7 +54,7 @@ nav {
   height: 50px;
   top: -50px;
   transition: 0.3s ease;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 nav::after {
   content: "";
