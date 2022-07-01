@@ -15,7 +15,15 @@ body {
   background: black;
   padding: 10px;
 }
+<<<<<<< HEAD
 .reponse {
+=======
+
+.cache {
+  color: rgb(31, 6, 6);
+}
+p {
+>>>>>>> main
   visibility: hidden;
   opacity: 0;
   width: 240px;

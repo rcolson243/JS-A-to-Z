@@ -14,6 +14,7 @@ reponse_deux.addEventListener('click', () => {
     bonne_reponse.style.backgroundColor = "red";
 })
 
+<<<<<<< HEAD
 // mouse event
 const mousemove = document.querySelector(".mousemove");
 // console.log(mousemove);
@@ -35,6 +36,15 @@ window.addEventListener("mouseup", (e)=> {
 
 window.addEventListener("mouseenter", (e)=> {
     ;
+=======
+question_container.addEventListener('click', () => {
+    console.log("click");
+    question_container.classList.toggle('question-clicked')
+})
+
+document.querySelector(".cache").addEventListener('click', () => {
+    question_container.classList.remove('question-clicked')
+>>>>>>> main
 })
 
 
